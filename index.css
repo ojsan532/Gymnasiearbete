@@ -1,4 +1,89 @@
-body {
 
-    background-color: #E5E5E5;
+.header1  {
+    background: #FAFAFA;
+    padding-bottom: 25px;
+    padding-top: 25px; 
+    text-align: center;
+}
+ 
+  .logo {
+     font-family: Crafty Girls;
+     float: left;  
+     display:inline;
+ }
+ 
+  .navigation {
+    font-family: 'Abel' , sans-serif;
+    text-align: center;
+    display:inline;
+ 
+ }
+  .signin {
+    font-family: 'Abel' , sans-serif;
+    color:#F7941E;
+    float: right;
+    display:inline;  
+ }
+ 
+ .relax {
+     display:grid;
+     grid-template-columns: 700px 700px;
+     background-color: #F1F1F2;
+     font-family: 'Abel' , sans-serif;
+ }
+ 
+ .text h5 {
+    color: #FFFFFF;
+    font-family: 'Abel' , sans-serif;
+    background: #F7941E;
+    border-width: 20px 50px 20px 50px;
+ }
+ 
+ .exercise {
+     display:grid;
+     grid-template-columns: 781px 659px;
+     background-color: #F1F1F2;
+     font-family: 'Abel' , sans-serif;
+ }
+ 
+ .balancing {
+     display:grid;
+     justify-items: center;
+     grid-template-columns: 1fr 1fr 1fr 1fr; 
+     grid-column-gap: 30px;
+ }
+ 
+.stress {
+    
+}
+ 
+.confidence {
+    
+}
+ 
+.mindfulness {
+ 
+}
+ 
+.sports {
+ 
+}
+ 
+.footer1 {
+    background: #FAFAFA;
+    width: 1440px;
+    height: 410px;
+}
+ 
+.navigation2 {
+    font-family: 'Abel' , sans-serif;
+    text-align: center;
+}
+ 
+.divider {
+    border: 1px solid #000000;
+}
+ 
+.copyright {
+    text-align: center;
 }
