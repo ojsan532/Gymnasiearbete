@@ -1,4 +1,60 @@
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+li, a, button {
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #FAFAFA;
+}
+
+.logo {
+    font-family: "Crafty Girls", sans-serif;
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 31px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    color: #F7941E;
+    padding: 7px 30px;
+    border: 1px solid #F7941E;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+/*
 .header1  {
     background: #FAFAFA;
     padding-bottom: 25px;
@@ -25,18 +81,41 @@
     display:inline;  
  }
  
+ */
  .relax {
      display:grid;
      grid-template-columns: 700px 700px;
      background-color: #F1F1F2;
      font-family: 'Abel' , sans-serif;
  }
+
+ .text h2 {
+    position: absolute;
+    width: 433px;
+    height: 143px;
+    left: 162px;
+    top: 154px;
+ }
+
+ .text p {
+    position: absolute;
+    width: 422px;
+    height: 31px;
+    left: 162px;
+    top: 396px;
+ }
  
  .text h5 {
+    position: absolute;
+    height: 72px;
+    left: 25px;
+    right: 24px;
+    top: calc(50% - 72px/2 + 4px);
     color: #FFFFFF;
+    display: flex;
     font-family: 'Abel' , sans-serif;
     background: #F7941E;
-    border-width: 20px 50px 20px 50px;
+    border-radius: 5px;
  }
  
  .exercise {
