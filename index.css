@@ -148,7 +148,7 @@ button {
  
 }
  
-.footer1 {
+.footer {
     background: #FAFAFA;
     width: 1440px;
     height: 410px;
@@ -163,6 +163,11 @@ button {
     border: 1px solid #000000;
 }
  
+.social {
+    
+}
+ 
 .copyright {
+    font-family: 'Abel' , sans-serif;
     text-align: center;
 }
