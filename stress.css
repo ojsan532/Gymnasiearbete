@@ -1,0 +1,293 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FAFAFA;
+    width: 1440px;
+    height: 116px;
+}
+
+.logo {
+    font-family: "Crafty Girls", sans-serif;
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 31px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    color: #F7941E;
+    padding: 7px 30px;
+    border: 1px solid #F7941E;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.content { 
+    font-family: 'Abel', sans-serif;
+    position: absolute;
+    width: 935px;
+    height: 210px;
+    left: 244px;
+    top: 391px;
+    background: rgba(241, 241, 242, 0.75);
+}
+
+.title {
+    top: 30px;
+    left: 196px;
+    position: absolute;
+    font-size: 40px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.text {
+    position: absolute;
+    top: 100px;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.main {
+    background: #E5E5E5;
+    width: 1440px;
+    height: 1137px;
+    font-family: 'Abel', sans-serif;
+}
+
+.whatisstress {
+    position: absolute;
+    width: 617px;
+    height: 342px;
+    left: 23px;
+    top: 682px;
+    background: rgba(255, 255, 255, 0.55);
+}
+
+.title2 {
+    position: absolute;
+    left: 28px;
+    top: 17px;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.text2 {
+    position: absolute;
+    left: 10px;
+    top: 67px;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.strategies {
+    position: absolute;
+    width: 641px;
+    height: 880px;
+    left: 773px;
+    top: 682px;
+    background: #FCF8F8;
+}
+
+.title3 {
+    position: absolute;
+    left: 32px;
+    top: 24.81px;
+    font-size: 30px;
+    line-height: 38px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.subheading {
+    position: absolute;
+    left: 32px;
+    top: 58.8px;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.89);
+}
+
+.text3 {
+    position: absolute;
+    left: 32px;
+    top: 113.93px;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.hourglass {
+    position: absolute;
+    width: 404px;
+    height: 487px;
+    left: 127px;
+    top: 1063px;
+}
+
+footer {
+    font-family: 'Abel' , sans-serif;
+    position: absolute;
+    background: #FAFAFA;
+    width: 1440px;
+    height: 410px;
+    clear:both;
+    top: 1750px;
+}
+
+.navigation2 {
+    top: 115px;
+    display: flex;
+    text-align:center;
+    justify-content:center;
+    font-size: 18px;
+}
+
+.home {
+    position: absolute;
+    left: 28.19%;
+    right: 69.1%;
+    top: 28.05%;
+    bottom: 65.61%;
+}
+
+.about {
+    position: absolute;
+    left: 36.46%;
+    right: 60.76%;
+    top: 28.05%;
+    bottom: 65.61%;
+}
+
+.urmind2 {
+    font-family: 'ABeeZee', sans-serif;
+    color: #F71E1E;
+    line-height: 21px;
+    position: absolute;
+    left: 48.61%;
+    right: 47.08%;
+    top: 28.05%;
+    bottom: 66.83%;
+}
+
+.service {
+    position: absolute;
+    left: 61.67%;
+    right: 34.79%;
+    top: 28.05%;
+    bottom: 65.61%;
+}
+
+.quotes {
+    position: absolute;
+    left: 68.75%;
+    right: 27.85%;
+    top: 28.05%;
+    bottom: 65.61%;
+}
+
+.divider {
+    position: absolute;
+    left: 15.28%;
+    right: 15.28%;
+    top: 45.85%;
+    bottom: 54.15%;
+    border: 1px solid #000000;
+}
+
+.social {
+    display: flex;
+    text-align:center;
+    justify-content:center;
+}
+
+.facebook {
+    position: absolute;
+    left: 572.8px;
+    bottom: 127.8px;
+}
+
+.twitter {
+    position: absolute;
+    left: 636.8px;
+    bottom: 127.8px;
+}
+
+.instagram {
+    position: absolute;
+    left: 700.8px;
+    bottom: 127.8px;
+}
+
+.youtube {
+    position: absolute;
+    left: 764.8px;
+    bottom: 127.8px;
+}
+
+.pinterest {
+    position: absolute;
+    left: 828.8px;
+    bottom: 127.8px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 26px;
+    left: 654.5px;
+    right: 654.5px;
+}
