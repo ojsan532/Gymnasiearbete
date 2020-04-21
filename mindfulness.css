@@ -1,0 +1,314 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FAFAFA;
+    width: 1440px;
+    height: 116px;
+}
+
+.logo {
+    font-family: "Crafty Girls", sans-serif;
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 31px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    color: #F7941E;
+    padding: 7px 30px;
+    border: 1px solid #F7941E;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.mindfulness {
+    font-family: "Abel", sans-serif;
+}
+
+.background {
+    position: absolute;
+
+}
+
+.content {
+    position: absolute;
+    width: 935px;
+    height: 246px;
+    left: 252px;
+    top: 412px;
+    background: rgba(241, 241, 242, 0.7);
+}
+
+.title {
+    top: 29px;
+    left: 282px;
+    right: 268px;
+    bottom: 166px;
+    position: absolute;
+    font-size: 40px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+    opacity: 0.95;
+}
+
+.text {
+    top: 94px;
+    left: 29px;
+    right: 28px;
+    bottom: 24px;
+    position: absolute;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.contentbackground {
+    position: absolute;
+    width: 1440px;
+    height: 1093px;
+    top: 712px;
+    background: #E5E5E5;
+}
+
+.stroop {
+    position: absolute;
+    width: 1326px;
+    height: 464px;
+    top: 31px;
+    left: 57px;
+    font-family: "Abel", sans-serif;
+    background: #EFECEC;
+} 
+
+.title2 {
+    position: absolute;
+    width: 204px;
+    height: 51.99px;
+    top: 15.29px;
+    left: 34px;
+    right: 1088px;
+    font-size: 40px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.color {
+    position: absolute;
+    width: 443px;
+    height: 262.99px;
+    left: 34px;
+    top: 101px;
+}
+
+.text2 {
+    position: absolute;
+    width: 739px;
+    height: 358.8px;
+    top: 67px;
+    right: 49px;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000; 
+}
+
+.practice {
+    position: absolute;
+    width: 758px;
+    height: 478px;
+    left: 57px;
+    top: 533px;
+    font-family: "Abel", sans-serif;
+    background: #EFECEC;
+}
+
+.title3 {
+    position: absolute;
+    top: 20px;
+    left: 34px;
+    left: 91px;
+    width: 395px;
+    height: 51px;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center;
+    color: #000000;
+}
+
+.text3 {
+    position: absolute;
+    top: 97px;
+    left: 16px;
+    width: 735px;
+    height: 288px;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    color: #000000;
+}
+
+.space {
+    position: absolute;
+    width: 530px;
+    height: 363px;
+    left: 820px;
+    top: 60px;
+}
+
+footer {
+    font-family: 'Abel' , sans-serif;
+    position: absolute;
+    background: #FAFAFA;
+    width: 1440px;
+    height: 410px;
+    clear:both;
+    top: 1750px;
+}
+
+.navigation2 {
+    top: 115px;
+    display: flex;
+    text-align:center;
+    justify-content:center;
+    font-size: 18px;
+}
+
+.home {
+    position: absolute;
+    left: 28.19%;
+    right: 69.1%;
+    top: 28.05%;
+    bottom: 65.61%;
+}
+
+.about {
+    position: absolute;
+    left: 36.46%;
+    right: 60.76%;
+    top: 28.05%;
+    bottom: 65.61%;
+}
+
+.urmind2 {
+    font-family: 'ABeeZee', sans-serif;
+    color: #F71E1E;
+    line-height: 21px;
+    position: absolute;
+    left: 48.61%;
+    right: 47.08%;
+    top: 28.05%;
+    bottom: 66.83%;
+}
+
+.service {
+    position: absolute;
+    left: 61.67%;
+    right: 34.79%;
+    top: 28.05%;
+    bottom: 65.61%;
+}
+
+.quotes {
+    position: absolute;
+    left: 68.75%;
+    right: 27.85%;
+    top: 28.05%;
+    bottom: 65.61%;
+}
+
+.divider {
+    position: absolute;
+    left: 15.28%;
+    right: 15.28%;
+    top: 45.85%;
+    bottom: 54.15%;
+    border: 1px solid #000000;
+}
+
+.social {
+    display: flex;
+    text-align:center;
+    justify-content:center;
+}
+
+.facebook {
+    position: absolute;
+    left: 572.8px;
+    bottom: 127.8px;
+}
+
+.twitter {
+    position: absolute;
+    left: 636.8px;
+    bottom: 127.8px;
+}
+
+.instagram {
+    position: absolute;
+    left: 700.8px;
+    bottom: 127.8px;
+}
+
+.youtube {
+    position: absolute;
+    left: 764.8px;
+    bottom: 127.8px;
+}
+
+.pinterest {
+    position: absolute;
+    left: 828.8px;
+    bottom: 127.8px;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 26px;
+    left: 654.5px;
+    right: 654.5px;
+}
