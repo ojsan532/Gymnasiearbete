@@ -218,6 +218,40 @@ button {
     color: #000000;
 }
 
+.olivierstory {
+    position: absolute;
+    width: 625px;
+    height: 487px;
+    left: 720px;
+    top: 550px; 
+}
+
+.title3 {
+    position: absolute;
+    width: 422px;
+    height: 51px;
+    left: 32px;
+    top: 11px;
+    font-size: 40px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.text3 {
+    position: absolute;
+    width: 568px;
+    height: 417px;
+    left: 16px;
+    top: 70px;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+}
+
 .contact {
     position: absolute;
     width: 557px;
