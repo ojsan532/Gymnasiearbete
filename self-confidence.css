@@ -105,7 +105,7 @@ background: rgba(241, 241, 242, 0.7);
     position: absolute;
     font-family: "Abel", sans-serif;
     width: 1440px;
-    height: 970px;
+    height: 1500px;
     top: 800px;
     background: #E5E5E5;
 }
@@ -203,6 +203,64 @@ background: rgba(241, 241, 242, 0.7);
     top: 22px;
 }
 
+.believe {
+    position: absolute;
+    left: 120px;
+    top: 950px;
+}
+
+.background_2 {
+    position: absolute;
+    width: 706px;
+    height: 426px;
+    left: 696px;
+    top: 950px;
+    background: #E9E3E3;
+}
+
+.subheading2 {
+    position: absolute;
+    width: 506px;
+    height: 35px;
+    left: 0px;
+    top: 0px;
+    font-size: 30px;
+    line-height: 38px;   
+    color: #000000;
+}
+
+.text_1 {
+    position: absolute;
+    width: 677px;
+    height: 92px;
+    left: 0px;
+    top: 48px;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000; 
+}
+
+.text_2 {
+    position: absolute;
+    width: 706px;
+    height: 92px;
+    left: 0px;
+    top: 160px;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.text_3 {
+    position: absolute;
+    width: 706px;
+    height: 152px;
+    left: 0px;
+    top: 260px;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+}
 footer {
     font-family: 'Abel' , sans-serif;
     position: absolute;
@@ -210,7 +268,7 @@ footer {
     width: 1440px;
     height: 410px;
     clear:both;
-    top: 1750px;
+    top: 2300px;
 }
 
 .navigation2 {
