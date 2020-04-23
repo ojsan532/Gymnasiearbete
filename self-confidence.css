@@ -76,7 +76,7 @@ background: rgba(241, 241, 242, 0.7);
     position: absolute;
     width: 255px;
     height: 51px;
-    top: 16px;
+    top: 0px;
     left: 340px;
     font-size: 40px;
     line-height: 51px;
@@ -99,6 +99,108 @@ background: rgba(241, 241, 242, 0.7);
     align-items: center;
     text-align: center;
     color: #000000;
+}
+
+.content_1 {
+    position: absolute;
+    font-family: "Abel", sans-serif;
+    width: 1440px;
+    height: 970px;
+    top: 800px;
+    background: #E5E5E5;
+}
+
+.background_1 {
+    position: absolute;
+    width: 664px;
+    height: 888px;
+    left: 32px;
+    top: 22px;
+    background: #FFFFFF;
+}
+
+.subheading {
+    position: absolute;
+    width: 558px;
+    height: 111px;
+    left: 53px;
+    top: 17px;
+    font-size: 40px;
+    line-height: 51px;
+    text-align: center; 
+    color: #000000;
+}
+
+.title2 {
+    position: absolute;
+    width: 389px;
+    height: 48px;
+    left: 20px;
+    top: 128px;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.text2 {
+    position: absolute;
+    width: 600px;
+    height: 172px;
+    left: 32px;
+    top: 188px;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.title3 {
+    position: absolute;
+    width: 252px;
+    height: 40px;
+    left: 20px;
+    top: 360px;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.text3 {
+    position: absolute;
+    width: 600px;
+    height: 224px;
+    left: 32px;
+    top: 400px;
+    font-size: 25px;
+    line-height: 32px;
+    color: #000000;
+}
+
+.title4 { 
+    position: absolute;
+    width: 136px;
+    height: 34px;
+    left: 20px;
+    top: 632px;
+    font-size: 30px;
+    line-height: 38px;
+    color: #000000;
+}
+
+.text4 {
+    position: absolute;
+    width: 600px;
+    height: 164px;
+    left: 32px;
+    top: 674px;
+    font-size: 25px;
+    line-height: 32px; 
+    color: #000000;
+}
+
+.jump {
+    position:absolute;
+    right: 36px;
+    top: 22px;
 }
 
 footer {

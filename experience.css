@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li, a, button {
+    font-family: "Abel", sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    color: #000000;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FAFAFA;
+    width: 1440px;
+    height: 116px;
+}
+
+.logo {
+    font-family: "Crafty Girls", sans-serif;
+    cursor: pointer;
+}
+
+.nav__links {
+    list-style: none;
+}
+
+.nav__links li {
+    display: inline-block;
+    padding: 0px 31px;
+}
+
+.nav__links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    color: #F7941E;
+    padding: 7px 30px;
+    border: 1px solid #F7941E;
+    box-sizing: border-box;
+    font-size: 18px;
+    line-height: 23px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+.aboutus {
+    font-family: 'Abel', sans-serif;
+}
+
+.content {
+    position: absolute;
+    width: 935px;
+    height: 246px;
+    left: 257px;
+    top: 326px;
+    background: rgba(241, 241, 242, 0.7);
+}
+
+.title {
+    position: absolute;
+    width: 478px;
+    height: 51px;
+    left: 235px;
+    top: 29px;
+    font-size: 40px;
+    line-height: 51px;
+    display: flex;
+    align-items: center;
+    text-align: center;  
+    color: #000000;
+    opacity: 0.95;
+}
+
+.text {
+    position: absolute;
+    width: 877px;
+    height: 96px;
+    left: 30px;
+    top: 110px;
+    font-size: 25px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.main {
+    position: absolute;
+    font-family: 'Abel', sans-serif;
+    background: #E5E5E5;
+    width: 1440px;
+    height: 1751px;
+}
+
+.profile {
+    position: absolute;
+    width: 554px;
+    height: 730px;
+    left: 48px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.25);
+}
+
+.revan {
+    position: absolute;
+    width: 198px;
+    height: 313px;
+    left: 41px;
+    top: 29px;
+}
+
+.olivier {
+    position: absolute;
+    width: 195px;
+    height: 313px;
+    left: 320px;
+    top: 29px;
+}
+
+.filip {
+    position: absolute;
+    width: 198px;
+    height: 313px;
+    left: 177px;
+    top: 374px;
+}

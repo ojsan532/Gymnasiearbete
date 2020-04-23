@@ -128,7 +128,7 @@ button {
 
 .strategies {
     position: absolute;
-    width: 641px;
+    width: 667px;
     height: 880px;
     left: 773px;
     top: 682px;
@@ -171,11 +171,106 @@ button {
     color: #000000;
 }
 
+.text3_1 {
+    position: absolute;
+    width: 598.49px;
+    height: 70px;
+    left: 56.14px;
+    top: 143px;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text4 {
+    position: absolute;
+    width: 254.23px;
+    height: 25px;
+    left: 33.9px;
+    top: 245px;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center; 
+    color: #000000;
+}
+
+.text4_1 {
+    position: absolute;
+    width: 619.68px;
+    height: 154px;
+    left: 52.96px;
+    top: 253px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.text5 {
+    position: absolute;
+    width: 349.56px;
+    height: 25px;
+    left: 33.9px;
+    top: 459px;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.text5_1 {
+    position: absolute;
+    width: 621.8px;
+    height: 224px;
+    left: 52.96px;
+    top: 467px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.text6 {
+    position: absolute;
+    width: 361.22px;
+    height: 25px;
+    left: 33.9px;
+    top: 735px;
+    font-size: 20px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.text6_1 {
+    position: absolute;
+    width: 606.97px;
+    height: 98px;
+    left: 52.96px;
+    top: 765px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 14px;
+    display: flex;
+    align-items: center;
+    color: #000000; 
+}
+
 .hourglass {
     position: absolute;
     width: 404px;
     height: 487px;
-    left: 127px;
+    left: 160px;
     top: 1063px;
 }
 
