@@ -24,3 +24,7 @@ To run this project, click this link (https://gymnasiearbete.ojsan532.now.sh/)
 * Clickable buttons
 * Link to other sites/tabs
 * Home button
+
+
+## Inspiration
+The coding where based of mock-ups from figma from my co-workers.
