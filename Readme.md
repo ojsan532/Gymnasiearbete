@@ -16,4 +16,4 @@ Project is created with:
 
 	
 ## Setup
-To run this project, install it locally using npm:
+To run this project, click this link (https://gymnasiearbete.ojsan532.now.sh/)
