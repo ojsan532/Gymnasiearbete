@@ -333,7 +333,7 @@ button {
     bottom: 63.37%;
 }   
 
-.readmore {
+.readmore a {
     font-size: 18px;
     line-height: 140.62%;
     color: #FFFFFF;
